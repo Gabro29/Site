@@ -2,9 +2,9 @@
 johndoe:
    name: Gabriele Lo Cascio
    username: gabro29
-   site: http://johndoe.com
-   avatar: johndoe.png
-   bio: "Do you want python?"
+  #  site: http://johndoe.com
+   avatar: gabro.png
+   bio: "Labor improbus vincit omnia"
    email: gabriele.locascio99@gmail.com
    social:
       - title: "github"

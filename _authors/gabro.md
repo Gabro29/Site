@@ -1,9 +1,10 @@
 ---
 name: Gabriele Lo Cascio
 username: gabro
-bio: "Hi I a m an engeenier"
-site: http://johndoe.com
-avatar: johndoe.png
+bio: "B.Sc. student in Innovation Engineering @ Università degli Studi di Palermo"
+
+# site: http://johndoe.com
+avatar: gabro.png
 email: gabriele.locascio99@gmail.com
 social:
     - title: "github"

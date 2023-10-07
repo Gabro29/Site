@@ -21,6 +21,13 @@ layout: default
         >
           <i class="fab fa-twitter"></i>
         </a>
+        {% endif %} {% if site.youtube_username %}
+        <a
+          class="social-link"
+          href="https://youtube.com/{{ site.youtube_username }}"
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
         {% endif %} {% if site.facebook_username %}
         <a
           class="social-link"
@@ -31,7 +38,7 @@ layout: default
         {% endif %} {% if site.instagram_username %}
         <a
           class="social-link"
-          href="http://instagram.com/{{ site.instagram_username }}"
+          href="https://instagram.com/{{ site.instagram_username }}"
         >
           <i class="fab fa-instagram"></i>
         </a>
@@ -45,7 +52,7 @@ layout: default
         {% endif %} {% if site.github_username %}
         <a
           class="social-link"
-          href="http://github.com/{{ site.github_username }}"
+          href="https://github.com/{{ site.github_username }}"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -59,7 +66,7 @@ layout: default
         {% endif %} {% if site.linkedin_username %}
         <a
           class="social-link"
-          href="http://linkedin.com/in/{{ site.linkedin_username }}"
+          href="https://linkedin.com/in/{{ site.linkedin_username }}"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
@@ -93,26 +100,48 @@ layout: default
       {% endif %}
     </div>
 
+    {% if site.author_bio %}
+    <div class="card">
+      <h1 class="card-title">About</h1>
+      <p>{{ site.author_bio }}</p>
+
+    </div>
+
+  </div>
+  <div class="col-lg-8">
     <div class="card">
       <h1>Skills</h1>
 
       {%- include author_skills.html -%}
     </div>
 
-    {% if site.wakatime_username %}
-    <div class="card">
-      <h1>Coding Activity</h1>
+    <!-- Work -->
 
-      {%- include coding_activity.html -%}
-    </div>
-    {% endif %}
-  </div>
-  <div class="col-lg-8">
-    {% if site.author_bio %}
+    {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
-      <h1 class="card-title">About</h1>
-      <p>{{ site.author_bio }}</p>
+      <h1 class="card-title">Work Experience</h1>
+      <br />
+      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
+      %}
+      <div class="row">
+        <div class="col-md-2">
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
+            class="company-logo"
+          />
+        </div>
+        <div class="col-md-6">
+          <h4 class="experience-title">{{ exp.designation }}</h4>
+          <h6 class="experience-info">{{ exp.company_name}}</h6>
+          <p class="experience-desc">{{ exp.description }}</p>
+          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
+        </div>
+      </div>
+      {% endif %} {% endfor %}
     </div>
+    
+    <!-- Projects -->
+
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
@@ -140,28 +169,9 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
-    <div class="card">
-      <h1 class="card-title">Work Experience</h1>
-      <br />
-      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
-      %}
-      <div class="row">
-        <div class="col-md-2">
-          <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
-            class="company-logo"
-          />
-        </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{ exp.designation }}</h4>
-          <h6 class="experience-info">{{ exp.company_name}}</h6>
-          <p class="experience-desc">{{ exp.description }}</p>
-          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
-        </div>
-      </div>
-      {% endif %} {% endfor %}
-    </div>
+
+    <!-- Education -->
+
     {% endif %} {% if site.show_author_education_details == true %}
     <div class="card">
       <h1 class="card-title">Education</h1>

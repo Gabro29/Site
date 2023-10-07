@@ -1,41 +1,37 @@
-title: Gabro
-subtitle: Pythonic
-description: "" # this means to ignore newlines until "baseurl:"
+title: Gabriele Lo Cascio
+subtitle: Labor improbus vincit omnia
+description: "B.Sc. student in Innovation Engineering @ Università degli Studi di Palermo" # this means to ignore newlines until "baseurl:"
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
-    - text: About
+    # - text: Home
+    #   url: /
+    - text: About Me
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
 author: Gabriele Lo Cascio
-author_bio: Hi, I am an engeenier
+author_bio: Hi, I am a student at Università degli Studi di Palermo in Innovation Engineering. Since 2017 I mature such an interested into data science, machine learning and AI. Now I am improving my skills in tensorflow and deep learnig.
 author_email: "gabriele.locascio99@gmail.com"
 author_location: Italy
-author_website_url: "https://sujaykundu.com"
-typewrite-text: All is Python
+# author_website_url: "https://sujaykundu.com"
+typewrite-text: Labor improbus vincit omnia
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
             - company_name: Duecci Market S.R.L.S
-              company_logo: duecci.jpg
+              company_logo: duecci.png
               company_url: https://dueccimarketsrls.business.site/
               designation: Technical Support
               description: Android and Windows applications
@@ -44,45 +40,39 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: unipa.png
+                college_name: Università degli Studi di Palermo
+                college_url: https://unipa.it
+                college_degree: Innovation Engineering
+                description: Bachelor of Science
                 visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: accounting.webp
+                project_title: Accounting Program
+                project_description: Desktop App that takes a Dataframe from .csv file. You can add, edit or remove the desired bill. You can print the total given by the sum of the various accounts.
+                # project_url: https://hack4r.com
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+
+              - project_thumbnail: rubik.webp
+                project_title: Rubik Cube
+                project_description: Rubik's Cube in pygame with OpenGL. The script shows on the screen a Rubik Cube built with OpenGL. Then I have also implemented all the possible moves as combination of the main moves. It is possible to change camera view with the mouse in a rude way.
+                project_url: https://github.com/Gabro29/Rubik
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
-
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
+github_username:  gabro29
+# linkedin_username: johndoe
+instagram_username: ga8ro
+youtube_username: UCkGvbGqYzDi3lfgtbQ_pngg
+linkedin_username: gabriele-lo-cascio-197609221
 
 # disqus_shortname: sujay-kundu
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: gabro29
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
@@ -92,8 +82,8 @@ mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50b
 formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
+# olvy_organization: devlopr
+# olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
@@ -133,11 +123,6 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
   -
     scope:
       path: ""
