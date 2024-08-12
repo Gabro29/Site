@@ -21,8 +21,16 @@ urls:
 
 author_logo: profile.png
 author: Gabriele Lo Cascio
-author_bio: Hi, I am a student at Università degli Studi di Palermo in Innovation Engineering. Since 2017 I mature such an interested into data science, machine learning and AI. Now I am improving my skills in tensorflow and deep learnig.
-author_email: "gabriele.locascio99@gmail.com"
+author_bio: >
+  Passionate self-learner with a knack for dissecting the world around me. Constantly pushing boundaries by building projects from scratch and embracing new challenges.
+
+  <ul>
+    <li>🧠 I'm particularly interested in AI and Machine Learning</li>
+    <li>🏎 Formula SAE Team IT Member as Embedded Software Developer <a href="https://github.com/Formula-SAE/IT">Apex Corse</a></li>
+    <li>⚛ <a href="https://qiskitfallfest23-unipa.github.io/">Qiskit Fall Fest 2023</a> Organizer</li>
+    <li>👨🏻‍💻 Contributed to <a href="http://github.com/VivIngInf/VivereKaffettino">VivereKaffettino</a></li>
+    <li>🎙️ I co-host the podcast <a href="https://open.spotify.com/episode/5usKggIh03yIwrXTdahqjZ?si=9c5d1ed64a5a469e">Iperconnessi</a> on Open Radio Unipa</li>
+  </ul>
 author_location: Italy
 # author_website_url: "https://sujaykundu.com"
 typewrite-text: Labor improbus vincit omnia
@@ -30,11 +38,30 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
+            - company_name: Apex Corse
+              company_logo: apex.png
+              company_url: https://www.apexcorse.it/
+              designation: Embedded Software Engineer
+              description: >
+                <ul>
+                    <li>Programmed STM32F303K8T6 and other microcontrollers in C, managing critical systems such as the Battery Management System (BMS) and Vehicle Control Unit (VCU)</li>
+                    <li>Developed and implemented Telegram bots for automating internal processes, enhancing team efficiency</li>
+                    <li>Assembled and maintained computer systems, ensuring optimal performance and reliability</li>
+                    <li>Designed the team’s website with WordPress, ensuring a user‑friendly interface and seamless functionality</li>
+                </ul>
+              visibility: true
+
             - company_name: Duecci Market S.R.L.S
               company_logo: duecci.png
-              company_url: https://dueccimarketsrls.business.site/
-              designation: Technical Support
-              description: Android and Windows applications
+              company_url: https://www.crai-supermercati.it/punto-vendita/5693-cuor-di-crai-partanna-mondello/
+              designation: Software Engineer & Techincal Support
+              description: >
+                <ul>
+                    <li>Designed and implemented a Windows application for Accounting Management, result in a 30% reduction in data processing time and a 20% increase in overall efficiency</li>
+                    <li>Developed an Android application for Invoice and Products Management, contributing to a streamlined process that increased productivity and reduced errors by 15%</li>
+                    <li>Established a video surveillance system by configuring an NVR, enhancing security measures and reducing incidents by 30%</li>
+                    <li>Produced impactful flyers and promotional images, leading to a 40% increase in engagement and visibility</li>
+                </ul>
               visibility: true
 
 
@@ -43,22 +70,74 @@ author_education_details:
               - college_logo: unipa.png
                 college_name: Università degli Studi di Palermo
                 college_url: https://unipa.it
-                college_degree: Innovation Engineering
-                description: Bachelor of Science
+                college_degree: BSc student in Innovation Engineering
+                description: >
+                    <ul>
+                      <li>Pursuing a comprehensive curriculum focusing on hybrid skills including Informatics, Statistics, Management, and Finance</li>
+                      <li>Actively engaged in coursework aimed at developing proficiency in data engineering and data science</li>
+                      <li>Established a video surveillance system by configuring an NVR, enhancing security measures and reducing incidents by 30%</li>
+                      <li>Participating in hands‑on projects and practical assignments to apply theoretical knowledge to real‑world scenarios</li>
+                    </ul>
                 visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: accounting.webp
-                project_title: Accounting Program
-                project_description: Desktop App that takes a Dataframe from .csv file. You can add, edit or remove the desired bill. You can print the total given by the sum of the various accounts.
-                # project_url: https://hack4r.com
+              - project_thumbnail: bip.jpg
+                project_title: Ninth place intelligent traffic management system (ITMS) VGen challenge
+                project_description: >
+                  <ul>
+                    <li>Implemented an ITMS using AI to optimize urban traffic</li>
+                    <li>Installed road sensors, cameras, and integrated vehicle GPS data for real‑time traffic information</li>
+                    <li>Applied knowledge gained from the book 'Hands‑On Machine Learning'</li>
+                    <li>Successfully implemented a solution that received a commendable evaluation of 29/30</li>
+                  </ul>
+                visibility: true
+
+              - project_thumbnail: podcast.png
+                project_title: AI & Machine Learning Podcast
+                project_description: >
+                  <ul>
+                    <li>Co‑host a podcast focused on AI and Machine Learning, discussing the latest trends, research, and applications in the field</li>
+                    <li>Interview experts to provide listeners with valuable insights and diverse perspectives on AI advancements</li>
+                    <li>Fostered a growing community of listeners interested in AI, technology, and innovation</li>
+                  </ul>
+                project_url: https://iperconnessi-podcast.my.canva.site/
+                visibility: true
+
+              - project_thumbnail: qiskit_micio.png
+                project_title: Qiskit Fall Fest
+                project_description: >
+                  <ul>
+                    <li>Orchestrated the planning and execution of autonomous gatherings for Qiskit Fall Fest, a global initiative supported by IBM Quantum, enhancing teamwork skills and fostering active contributions to event strategy</li>
+                  </ul>
+                project_url: https://qiskitfallfest23-unipa.github.io/
                 visibility: true
 
               - project_thumbnail: rubik.webp
-                project_title: Rubik Cube
-                project_description: Rubik's Cube in pygame with OpenGL. The script shows on the screen a Rubik Cube built with OpenGL. Then I have also implemented all the possible moves as combination of the main moves. It is possible to change camera view with the mouse in a rude way.
+                project_title: Brute Force a Rubik Cube
+                project_description: >
+                  <ul>
+                    <li>Developed a Python script using Pygame and OpenGL to create an interactive virtual Rubik’s Cube</li>
+                    <li>Implemented all possible moves and camera controls, enhancing user interactivity and visualization.</li>
+                    <li>Open‑sourced the project, encouraging contributions and further development, including potential AI integration for solving the Rubik’s Cube</li>
+                  </ul>
                 project_url: https://github.com/Gabro29/Rubik
+                visibility: true
+
+              - project_thumbnail: conan.jpg
+                project_title: Android Application with Kivy
+                project_description: >
+                  <ul>
+                    <li>Created an app to search and categorize episodes of the Detective Conan, with custom episode descriptions and keyword‑based searches</li>
+                    <li>Added features for generating random episodes and saving favorites, enhancing the viewing experience</li>
+                    <li>Released the app without special permissions, making it easily accessible for users on various devices</li>
+                  </ul>
+                project_url: https://github.com/Gabro29/APTX
+                visibility: true
+
+              - project_thumbnail: accounting.webp
+                project_title: Accounting Program
+                project_description: Desktop App that takes a Dataframe from .csv file. You can add, edit or remove the desired bill. You can print the total given by the sum of the various accounts.
                 visibility: true
 
 # social links
@@ -66,7 +145,7 @@ github_username:  gabro29
 # linkedin_username: johndoe
 instagram_username: ga8ro
 youtube_username: UCkGvbGqYzDi3lfgtbQ_pngg
-linkedin_username: gabriele-lo-cascio-197609221
+linkedin_username: gabriele-lo-cascio
 
 # disqus_shortname: sujay-kundu
 hyvor_talk_website_id: 476
