@@ -7,7 +7,7 @@ author: gabro
 date: '2023-08-28 1:35:23 +0530'
 category: ['python', 'math']
 tags: python
-thumbnail: /assets/img/posts/biliard/mini_bili.png
+thumbnail: /assets/img/posts/Unfolding the Billiard/mini_bili.png
 keywords: biliard, math, python, unfolding
 usemathjax: true
 permalink: /blog/unfolding-the-biliard/
@@ -29,7 +29,7 @@ Innanzitutto, mediante l'uso di Matplot Lib, una libreria di Python, vengono tra
 
 Il moto della pallina è costruito analiticamente: si fissa una direzione arbitraria e si traccia una retta che ne indica la traiettoria. È chiaro che, durante il moto, la pallina urterà le pareti del *biliardo*. Per rendere più semplice il nostro lavoro è stato implementato l'effetto pac-man sulle pareti. Per l'equivalenza dei due fenomeni di veda l'immagine seguente.
 
-![](/assets/img/posts/biliard/image1.png){: width="600" height="300"}
+![](/assets/img/posts/Unfolding the Billiard/image1.png){: width="600" height="300"}
 
 La pallina sbuca fuori dalla parte opposta, senza variare la sua direzione. 
 
@@ -37,7 +37,7 @@ La pallina sbuca fuori dalla parte opposta, senza variare la sua direzione.
 
 A partire dalla prima traiettoria vengono tracciate le successive sulla base della seguente logica:
 
-![](/assets/img/posts/biliard/image2.png){: width="600" height="300"}
+![](/assets/img/posts/Unfolding the Billiard/image2.png){: width="600" height="300"}
 
 Tale logica implementa l’effetto pac-man: il punto d’intersezione con la parete del biliardo viene traslato dalla parte opposta per disegnare la nuova traiettoria. La pendenza non viene cambiata mentre, tramite la formula inversa della retta si ricava l’intercetta.
 
@@ -55,7 +55,7 @@ sovrapposte e quindi di poco d'interesse.
 
 Innanzitutto si osservi l'animazione riportata di seguito:
 
-![](/assets/img/posts/biliard/image3.gif){: width="600" height="300"}
+![](/assets/img/posts/Unfolding the Billiard/image3.gif){: width="600" height="300"}
 
 Si nota che a partire da un segmento, unendo le due estremità, si giunge
 ad una circonferenza. Si passa poi ad un Toroide facendo ruotare la
@@ -159,7 +159,7 @@ $$
 $$
 
 
-![](/assets/img/posts/biliard/image4.gif){: width="600" height="300"}
+![](/assets/img/posts/Unfolding the Billiard/image4.gif){: width="600" height="300"}
 
 Quando a partire dal segmento si giunge alla circonferenza, si hanno due modi per collegare due punti: si formano due archi. La distanza è data quindi dall'arco di lunghezza minima. La facoltà di scegliere il percorso minore è contemplata quando si considera l'offset di $$\pm 1$$ a seconda dei casi.
 
@@ -258,7 +258,7 @@ Dove $$\omega$$, *φ* sono gli angoli di rotazione, *r*  è il raggio del tubo d
 Il motivo per il quale si giunge al Toroide è dato dalla seguente
 animazione esemplificativa:
 
-![](/assets/img/posts/biliard/image5.gif){: width="600" height="300"}
+![](/assets/img/posts/Unfolding the Billiard/image5.gif){: width="600" height="300"}
 
 È possibile ottenere un Toroide a partire da un rettangolo se si incollano tra di loro il bordo superiore e inferiore e poi quello destro e sinistro
 
@@ -401,13 +401,13 @@ $$ \beta = \frac{1}{\theta}.$$
 
 Infine $$\alpha$$ può essere ricavato in due modi differenti: considerando il reciproco della proiezione dell'ipotenusa sull'asse delle ordinate, oppure considerando che $$\frac{\alpha}{\beta} = \theta$$.
 
-![](/assets/img/posts/biliard/image6.PNG){: width="600" height="300"}
+![](/assets/img/posts/Unfolding the Billiard/image6.PNG){: width="600" height="300"}
 
 **Simulazioni**
 
 Di seguito si riporta una simulazione relativa al caso di moto periodico.
 
-![](/assets/img/posts/biliard/image7.gif){: width="600" height="300"}
+![](/assets/img/posts/Unfolding the Billiard/image7.gif){: width="600" height="300"}
 
 Il moto periodico produce una linea chiusa sul Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è 0.2.
 
@@ -425,7 +425,7 @@ Si riportano inoltre i valori che caratterizzano tale simulazione.
 
 Di seguito si riporta una simulazione relativa al caso di moto non periodico.
 
-![Simulazione](/assets/img/posts/biliard/image8.gif){: width="600" height="300"}
+![Simulazione](/assets/img/posts/Unfolding the Billiard/image8.gif){: width="600" height="300"}
 
 Il moto non periodico riempie densamente il Toroide. Il punto di spawn della pallina è (0.2,0.4), mentre la pendenza è π.
 

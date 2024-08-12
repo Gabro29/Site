@@ -7,7 +7,7 @@ author: gabro
 date: '2024-08-12 1:35:23 +0530'
 category: ['cracking']
 tags: cracking
-thumbnail: /assets/img/posts/kali/kali.png
+thumbnail: /assets/img/posts/Cracking Wi-Fi Network/kali.png
 keywords: cracking, kali linux, airgeddon, wifi
 permalink: /blog/kali-tips/
 ---
