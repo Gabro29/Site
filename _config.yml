@@ -44,7 +44,6 @@ author_work_experiences:
               designation: Embedded Software Engineer
               description: >
                 <ul>
-                    <li>Programmed STM32F303K8T6 and other microcontrollers in C, managing critical systems such as the Battery Management System (BMS) and Vehicle Control Unit (VCU)</li>
                     <li>Developed and implemented Telegram bots for automating internal processes, enhancing team efficiency</li>
                     <li>Assembled and maintained computer systems, ensuring optimal performance and reliability</li>
                     <li>Designed the team’s website with WordPress, ensuring a user‑friendly interface and seamless functionality</li>
@@ -82,6 +81,27 @@ author_education_details:
 
 # Projects
 author_project_details:
+
+              - project_thumbnail: mdw_emotion.jpg
+                project_title: MDW Emotion Detection Challenge - First Place
+                project_description: >
+                  <ul>
+                    <li>Developed a machine learning solution by first extracting semantic insights from tweets using an embedded model.</li>
+                    <li>Enhanced data was then fed into a Voting classifier combining Random Forest, Logistic Regression, and Gradient Boosting.</li>
+                    <li>Repository available <a href="https://github.com/Gabro29/MDWHack">here</a>.</li>
+                  </ul>
+                visibility: true
+
+              - project_thumbnail: itadatahack.jpg
+                project_title: ITADATAhack - Second Place
+                project_description: >
+                  <ul>
+                    <li>Competed in a machine learning competition to predict customer creditworthiness.</li>
+                    <li>Built a Voting classifier with eight Random Forest models, each trained on a different under-sampled subsample.</li>
+                    <li>Repository available <a href="https://github.com/Gabro29/ITA_DATA_HACK">here</a>.</li>
+                  </ul>
+                visibility: true
+
               - project_thumbnail: bip.jpg
                 project_title: Ninth place intelligent traffic management system (ITMS) VGen challenge
                 project_description: >
@@ -111,6 +131,18 @@ author_project_details:
                     <li>Orchestrated the planning and execution of autonomous gatherings for Qiskit Fall Fest, a global initiative supported by IBM Quantum, enhancing teamwork skills and fostering active contributions to event strategy</li>
                   </ul>
                 project_url: https://qiskitfallfest23-unipa.github.io/
+                visibility: true
+
+              - project_thumbnail: tic_tac_toe.png
+                project_title: Tic-Tac-Toe Solved with Q-Learning
+                project_description: >
+                  <ul>
+                    <li>Developed a Tic-Tac-Toe AI using Q-learning to improve gameplay over episodes.</li>
+                    <li>The computer learns optimal moves by tracking rewards and updating a Q-table with board states.</li>
+                    <li>Utilizes Python libraries such as NumPy and Matplotlib for calculations and visualizations.</li>
+                    <li>Implemented an epsilon-greedy strategy for balanced exploration and exploitation, with dynamic Q-value updates.</li>
+                    <li>Saved training progress for the AI through Q-table files, allowing for resumed learning.</li>
+                  </ul>
                 visibility: true
 
               - project_thumbnail: rubik.webp

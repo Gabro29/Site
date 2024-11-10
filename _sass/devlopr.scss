@@ -1,5 +1,12 @@
 /* devlopr-jekyll styling */
 
+.normalized-img {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image fits within dimensions without distortion */
+    border-radius: 8px; /* Optional: adds rounded corners */
+  }
+
 /* variables */
 $body-typeface:'Quicksand', sans-serif;
 $nav-typeface: "Gill sans";
