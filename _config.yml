@@ -86,8 +86,8 @@ author_project_details:
                 project_title: MDW Emotion Detection Challenge - First Place
                 project_description: >
                   <ul>
-                    <li>Developed a machine learning solution by first extracting semantic insights from tweets using an embedded model.</li>
-                    <li>Enhanced data was then fed into a Voting classifier combining Random Forest, Logistic Regression, and Gradient Boosting.</li>
+                    <li>Developed a machine learning solution by extracting semantic insights from tweets using an embedded model.</li>
+                    <li>Enhanced data were then fed into a Voting classifier combining Random Forest, Logistic Regression, and Gradient Boosting.</li>
                     <li>Repository available <a href="https://github.com/Gabro29/MDWHack">here</a>.</li>
                   </ul>
                 visibility: true
@@ -96,20 +96,9 @@ author_project_details:
                 project_title: ITADATAhack - Second Place
                 project_description: >
                   <ul>
-                    <li>Competed in a machine learning competition to predict customer creditworthiness.</li>
+                    <li>Competed in a machine learning hackathon to predict customer creditworthiness.</li>
                     <li>Built a Voting classifier with eight Random Forest models, each trained on a different under-sampled subsample.</li>
                     <li>Repository available <a href="https://github.com/Gabro29/ITA_DATA_HACK">here</a>.</li>
-                  </ul>
-                visibility: true
-
-              - project_thumbnail: bip.jpg
-                project_title: Ninth place intelligent traffic management system (ITMS) VGen challenge
-                project_description: >
-                  <ul>
-                    <li>Implemented an ITMS using AI to optimize urban traffic</li>
-                    <li>Installed road sensors, cameras, and integrated vehicle GPS data for real‑time traffic information</li>
-                    <li>Applied knowledge gained from the book 'Hands‑On Machine Learning'</li>
-                    <li>Successfully implemented a solution that received a commendable evaluation of 29/30</li>
                   </ul>
                 visibility: true
 
@@ -121,7 +110,7 @@ author_project_details:
                     <li>Interview experts to provide listeners with valuable insights and diverse perspectives on AI advancements</li>
                     <li>Fostered a growing community of listeners interested in AI, technology, and innovation</li>
                   </ul>
-                project_url: https://iperconnessi-podcast.my.canva.site/
+                project_url: https://www.youtube.com/@iperconnessi
                 visibility: true
 
               - project_thumbnail: qiskit_micio.png
@@ -169,7 +158,8 @@ author_project_details:
 
               - project_thumbnail: accounting.webp
                 project_title: Accounting Program
-                project_description: Desktop App that takes a Dataframe from .csv file. You can add, edit or remove the desired bill. You can print the total given by the sum of the various accounts.
+                project_description: Developed a desktop application for managing financial records. This project serves as a demonstration of key functionalities found in a more advanced and sophisticated software solution that I offer commercially.
+                project_url: https://github.com/Gabro29/Accounting
                 visibility: true
 
 # social links
